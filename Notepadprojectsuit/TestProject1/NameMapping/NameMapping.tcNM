@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{66E5A78C-3024-47B9-816D-7838E887D180}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="explorer" Key="{705039AF-9BE1-4622-9D36-04376E55BEB2}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="explorer" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndShell_TrayWnd" Key="{2090AFF1-6C20-4431-9E9E-E7B88331229B}">
+								<Image FileName="698718572" Left="0" Top="0" Right="1920" Bottom="60" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Shell_TrayWnd" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="ReBarWindow32" Key="{A69985D4-2F57-47B8-8E24-F258A69ECBBD}">
+										<Image FileName="698718572" Left="70" Top="0" Right="1592" Bottom="60" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="ReBarWindow32" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="MSTaskSwWClass" Key="{3549DF47-867A-4549-B269-BA8B10920933}">
+												<Image FileName="698718572" Left="72" Top="0" Right="1592" Bottom="60" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="MSTaskSwWClass" />
+													</Property>
+													<Property Name="WndCaption">
+														<Value Value="Running applications" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="MSTaskListWClass" Key="{A09BDD44-72E2-4809-9B49-631C826C4CF2}">
+														<Image FileName="698718572" Left="72" Top="0" Right="1592" Bottom="60" />
+														<TypeInfo Item0="{9D258C6C-5B82-4A8A-97A2-6C1BDFE2BDDE}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="MSTaskListWClass" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value Value="Running applications" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="browser" Key="{81C20D54-6F14-458F-8E93-511B2B5217AC}">
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="BrowserWindow" Key="{8B387C1D-E5E2-4F3A-A18F-BAF1DEC3733E}">
+								<Image FileName="60334023" Left="-11" Top="-11" Right="1931" Bottom="1031" />
+								<TypeInfo Item0="{81D146E7-B447-46E5-BA56-8E6D084B8390}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="explorer" Owner="{705039AF-9BE1-4622-9D36-04376E55BEB2}">
+			<Child Name="wndShell_TrayWnd" Owner="{2090AFF1-6C20-4431-9E9E-E7B88331229B}">
+				<Child Name="ReBarWindow32" Owner="{A69985D4-2F57-47B8-8E24-F258A69ECBBD}">
+					<Child Name="MSTaskSwWClass" Owner="{3549DF47-867A-4549-B269-BA8B10920933}">
+						<Child Name="MSTaskListWClass" Owner="{A09BDD44-72E2-4809-9B49-631C826C4CF2}" />
+					</Child>
+				</Child>
+			</Child>
+		</Child>
+		<Child Name="browser" Owner="{81C20D54-6F14-458F-8E93-511B2B5217AC}">
+			<Child Name="BrowserWindow" Owner="{8B387C1D-E5E2-4F3A-A18F-BAF1DEC3733E}" />
+		</Child>
+	</LogicalNodes>
+</Root>
